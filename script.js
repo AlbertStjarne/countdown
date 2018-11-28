@@ -1,6 +1,6 @@
 function countDown() {
   // Set the date we're counting down to
-  var countDownDate = new Date("Jan 28, 2019 12:10:00").getTime();
+  var countDownDate = new Date("Nov 28, 2018 16:20:00").getTime();
   
       // Get todays date and time
       var now = new Date().getTime();
