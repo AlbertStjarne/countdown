@@ -1,45 +1,59 @@
     body {
-      background: #f6f6f6;
+      background: #1f1d1d;
     }
   
     .countdownContainer {
-      margin: 5px auto 10px auto;
+      margin: 15px auto 15px auto;
       width: 90%;
       text-align: center;
       background: #ddd;
-      border: 1px solid #999;
       box-shadow: 0 0 5px 3px #ccc;
     }
   
     @media screen and (min-width: 1000px) {
       .countdownContainer {
-        margin: 5px auto 10px auto;
+        margin: 15px auto 15px auto;
         width: 70%;
         text-align: center;
         background: #ddd;
-        border: 1px solid #999;
         box-shadow: 0 0 5px 3px #ccc;
       }
     }
 
     .info {
-      font-size: 40px;
+      font-size: 35px;
+      font-family: 'Black Han Sans', sans-serif;
+
+    }
+
+    .text {
+      font-size: 25px;
+      font-family: 'Black Han Sans', sans-serif;
+
+    }
+
+    .heading {
+      font-size: 15px;
+      font-family: 'Black Han Sans', sans-serif;
+
     }
 
     #girl {
       display: block;
-      margin: 10px auto 5px auto;
+      margin: 15px auto 15px auto;
       width: 90%;
       height: auto;
-      opacity: 0.7;
+      opacity: 0.6;
+      box-shadow: 0 0 5px 3px #ccc;
     }
 
     @media screen and (min-width: 1000px) {
     #girl {
       display: block;
-      margin: 10px auto 5px auto;
+      margin: 15px auto 15px auto;
       width: 70%;
       height: auto;
-      opacity: 0.7;
+      opacity: 0.6;
+      box-shadow: 0 0 5px 3px #ccc;
     }
   }

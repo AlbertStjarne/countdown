@@ -1,8 +1,8 @@
 function countDown() {
   // Set the date we're counting down to
-  var countDownDate = new Date("Nov 28, 2018 16:20:00").getTime();
-  
-      // Get todays date and time
+  var countDownDate = new Date("Jan 28, 2019 16:22:00").getTime();
+
+  // Get todays date and time
       var now = new Date().getTime();
       
       // Find the distance between now and the count down date
@@ -24,6 +24,7 @@ function countDown() {
       if (distance < 0) {
           clearTimeout();
           document.getElementById("end").innerHTML = "Congrats girl, you are free now ;-)";
+          document.getElementById("end").style.color = "ff4d4d";
 
           let remove = document.getElementsByClassName("remove");
           let i;
